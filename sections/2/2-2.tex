@@ -1,0 +1,29 @@
+\subti{2.2-1}\\
+$ \Theta(n^3) $\\
+
+
+\subti{2.2-2}
+\begin{lstlisting}[language=Python,numbers=left,numberstyle=\normalsize]
+#selection sort
+for i = 1 to A.length-1
+    min = i
+    for j = i+1 to A.length
+        if A[j] < A[min]:
+            min = j
+    tmp=A[i]
+    A[i]=A[min]
+    A[min]=tmp
+\end{lstlisting}
+loop invatiant: the subarray $ A[1,\cdots,i-1] $ contains i-1 smallest elements and is sorted order\\
+After selection sorting, $ A[n] $ is the largest element.\\
+best-case: $ \Theta(n^2) $\\
+worst-case: $ \Theta(n^2) $\\
+
+
+\subti{2.2-3}\\
+averange: $ (n+1) / 2 $ , running time: $ \Theta(n) $\\
+worst case: $ n $ , running time: $ \Theta(n) $\\
+
+
+\subti{2.2-4}\\
+Set a standard input(denoted by A), check whether the input is the same as A, and output the standard output.

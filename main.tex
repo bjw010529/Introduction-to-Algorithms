@@ -1,0 +1,42 @@
+\documentclass[Unicode]{article}
+\usepackage{graphicx}
+\usepackage{amsmath}
+\usepackage{amsthm}
+\usepackage{amsfonts}
+\usepackage{amssymb}
+\usepackage{titletoc}
+\usepackage{geometry}
+\usepackage{listings}
+\usepackage{xcolor}
+\usepackage{mathtools}
+\geometry{a4paper,scale = 0.7}
+
+\allowdisplaybreaks
+\title{A Solution Manual for Introduction to Algorithms}
+\author{Jiawen Bi}
+\newcommand{\subti}[1]{\textbf{\textit{\Large{#1}}}}
+\newcommand\cod[1]{
+    \begin{lstlisting}[language=Python,numbers=left,numberstyle=\normalsize]
+        
+        #1
+    \end{lstlisting}
+}
+
+\begin{document}
+
+\maketitle
+\tableofcontents
+
+\section{Foundations}
+\section{Getting Started}
+\subsection{Insertion sort}
+\input{sections/2/2-1.tex}
+\subsection{Analyzing algorithms}
+\input{sections/2/2-2.tex}
+\subsection{Designing algorithms}
+\input{sections/2/2-3.tex}
+
+\subsection{Problems}
+
+
+\end{document}
