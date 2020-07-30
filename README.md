@@ -1,5 +1,5 @@
 # Introduction-to-Algorithms
-A solution manual for Introduction to Algorithms(irregularly uodating)
+A solution manual for Introduction to Algorithms(irregularly updating)
 
 Compile main.tex to get the manual
 
