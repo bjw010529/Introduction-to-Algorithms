@@ -78,3 +78,11 @@ in an array that is half the length of the previous array.\\
 \subti{2.3-6}\\
 No. Even if we can use a binary search to simplify the searching part, 
 the running time of moving $A[j]$ is still $\Theta(n^2)$
+
+
+\subti{2.3-7}\\
+First, we use merge-sort to sort S and we denote the ordered elements by $A[1\cdots,n]$.
+The running time of merge-sort is $ \Theta(n \lg n) $.\\
+Then, for $ i=1,2,\cdots,n-1 $, we use binary search to check whether there is
+an element A[k] in $ A[i+1,\cdots,n] $ such that $ A[i]+A[k]=x $. Running time of this part is $ \Theta(n\lg n) $.\\
+Thus, the running time of the algorithm is $\Theta(n\lg n)$
